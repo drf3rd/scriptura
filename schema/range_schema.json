@@ -1,0 +1,10 @@
+{
+  "title": "Range Schema",
+  "type": "object",
+  "properties": {
+    "context": { "type": "string" },
+    "themes": { "type": "array", "items": { "type": "string" } },
+    "lens_resonance": { "type": "boolean" }
+  },
+  "required": ["context"]
+}

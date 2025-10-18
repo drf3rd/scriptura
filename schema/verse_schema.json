@@ -1,0 +1,12 @@
+{
+  "title": "Verse Schema",
+  "type": "object",
+  "properties": {
+    "book": { "type": "string" },
+    "chapter": { "type": "integer" },
+    "verse": { "type": "integer" },
+    "text": { "type": "string" },
+    "tokens": { "type": "array", "items": { "$ref": "token_schema.json" } }
+  },
+  "required": ["book", "chapter", "verse", "text"]
+}

@@ -1,0 +1,11 @@
+audit:
+  version: "1.0"
+  date: "2025-10-16"
+  verified_by: "drf3rd"
+  method: "sha256"
+  results:
+    manifest.json: "pending"
+    config/scriptura.yaml: "pending"
+  status: "unverified"
+notes:
+  - "Populate hashes after upload using local checksum validation."
