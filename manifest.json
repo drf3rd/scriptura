@@ -1,0 +1,39 @@
+{
+  "version": "v08.01-law",
+  "repo": "drf3rd/scriptura",
+  "base_url": "https://raw.githubusercontent.com/drf3rd/scriptura/main/",
+  "layers": {
+    "config": "config/scriptura.yaml",
+    "schemas": {
+      "token": "schema/token_schema.json",
+      "verse": "schema/verse_schema.json",
+      "range": "schema/range_schema.json"
+    },
+    "render_layers": {
+      "token": "layers/token_layer.md",
+      "verse": "layers/verse_layer.md",
+      "range": "layers/range_layer.md"
+    }
+  },
+  "modules": {
+    "motion": {
+      "rootseek": "motion/rootseek.md",
+      "strata": "motion/strata.md",
+      "path": "motion/path.md"
+    },
+    "rites": {
+      "invocation": "rites/invocation.md",
+      "closure": "rites/closure.md"
+    },
+    "covenant": {
+      "law": "covenant/law.md",
+      "covenant": "covenant/covenant.md",
+      "witness": "covenant/witness.md",
+      "audit": "covenant/audit.yaml"
+    }
+  },
+  "features": {
+    "lens_resonance": false,
+    "salutation_style": "amen-fulfilled"
+  }
+}

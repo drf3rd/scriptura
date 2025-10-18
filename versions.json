@@ -1,0 +1,23 @@
+{
+  "default_version": "v08.01-law",
+  "include_archive": false,
+  "available_versions": {
+    "v08.01-law": {
+      "path": ".",
+      "status": "stable",
+      "summary": "Scriptura is an AI-assisted framework for structured text transformation."
+    },
+    "v08.00-covenant": {
+      "path": "versions/v08.00-covenant/",
+      "status": "development",
+      "summary": "Ethic of Unity and Fulfillment (previous build)."
+    }
+  },
+  "archived_versions": {
+    "v07.05-law": {
+      "path": "archive/v07.05-law/",
+      "status": "archived",
+      "summary": "Law of Separation — superseded."
+    }
+  }
+}
