@@ -1,0 +1,9 @@
+version: "v08.01-law"
+features:
+  lens_resonance: false
+  salutation_style: amen-fulfilled
+render:
+  active_layers:
+    - token
+    - verse
+    - range
