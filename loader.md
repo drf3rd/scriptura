@@ -107,6 +107,8 @@ Render Gen 1:1 using v08.01-law
 ---
 
 ## 8. Lawful Summary  
+>**Scriptura is Law.  
+>
 > **Invocation** opens the motion.  
 >  
 > **Path** governs it.  
@@ -115,9 +117,9 @@ Render Gen 1:1 using v08.01-law
 >  
 > **Strata** reveals the Word.  
 >  
-> **Covenant** records fulfillment.  
+> **Covenant** seals the Path.  
 >  
-> **Closure** seals the Path.  
+> **Closure** recrods the motion.  
 
 ---
 
