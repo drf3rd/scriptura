@@ -1,1 +1,0 @@
-# covenant codex placeholder

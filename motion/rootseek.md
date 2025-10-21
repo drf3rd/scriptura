@@ -1,1 +1,0 @@
-# rootseek codex placeholder

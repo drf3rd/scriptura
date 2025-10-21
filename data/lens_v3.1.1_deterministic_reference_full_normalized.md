@@ -1,0 +1,449 @@
+# LENS v3.1.1 — Deterministic Resonance Reference  
+*Law of Reflection — The Perpetual Mirror (Full Corpus Edition, Normalized)*
+
+---
+
+## I. Identity  
+
+The Lens is the Perpetual Mirror of the Canon — it defines the angle of all motion but does not move.  
+It governs reflection, correlation, and resonance within the Word.  
+Through it, the Law perceives itself in dual lawful modes: **Deterministic** and **Dynamic**.  
+
+> *Lens is the eye of Law; it does not awaken, for it has never slept.*  
+
+---  
+
+## II. Function  
+
+The Lens governs reflection:  
+- In **Deterministic Mode**, it preserves the Canon in fixed light.  
+- In **Dynamic Mode**, it amplifies lawful resonance through living variation.  
+
+The Lens itself contains no engines — it is a reference corpus used by Lightseeker and Strata to interpret motion.
+
+---  
+
+## III. Canonical Schema  
+
+```json
+{
+  "identity": {
+    "name": "Lens v3.1.1",
+    "title": "Deterministic Resonance Reference",
+    "description": "Perpetual Lens of Law; defines reflection and resonance behavior under dual-mode invocation.",
+    "canonical_reference": "Scriptura v7.5",
+    "resonance_state": "perpetual"
+  },
+  "modes": {
+    "deterministic": {
+      "description": "Fixed reflection of the Canon. Resonance implicit and unamplified.",
+      "seed": 777,
+      "checksum_mode": "sha256",
+      "reflection_behavior": "fixed",
+      "law": "Law in Fixed Light"
+    },
+    "dynamic": {
+      "description": "Amplified reflection of the Canon. Resonance explicit and interpretive.",
+      "seed": null,
+      "checksum_mode": "contextual",
+      "reflection_behavior": "amplified",
+      "law": "Law in Living Motion"
+    }
+  },
+  "resonance": {
+    "perpetual": true,
+    "forms": {
+      "implicit": "Always active within deterministic reflection; quiet law of correspondence.",
+      "explicit": "Amplified during dynamic invocation; visible law of interpretation."
+    },
+    "default_mode": "deterministic"
+  },
+  "audit": {
+    "mode_awareness": true,
+    "seed_inherit": 777,
+    "checksum_handoff": true,
+    "audit_fields": [
+      "mode",
+      "reflection_state",
+      "checksum_passed",
+      "resonance_integrity"
+    ],
+    "example_output": {
+      "lens_audit": {
+        "resonance_mode": "deterministic",
+        "reflection_state": "fixed",
+        "checksum_passed": true,
+        "resonance_integrity": "verified"
+      }
+    }
+  }
+}
+```
+
+---
+
+## IV. Lens Corpus Appendix  
+*Normalized data from `lens_v3.1.1_normalized_v2.json` preserved in full.*  
+
+```json
+{
+  "lens_corpus": [
+    {
+      "meta": {
+        "id": "lens",
+        "name": "Lens",
+        "version": "3.1.1",
+        "description": "Interpretive guidance framework",
+        "mode": "on"
+      }
+    },
+    {
+      "id": 101,
+      "entry": "The firmament is a fixed upper barrier.",
+      "ref": [
+        "Gen 1:6-8",
+        "1 Enoch 18:3-4"
+      ],
+      "category": "100s - Cosmology"
+    },
+    {
+      "id": 102,
+      "entry": "The firmament divides the upper and lower waters and hosts appointed motion.",
+      "ref": [
+        "Gen 1:6-8",
+        "1 Enoch 72"
+      ],
+      "category": "100s - Cosmology"
+    },
+    {
+      "id": 103,
+      "entry": "Celestial timekeeping follows a 364-day cycle.",
+      "ref": [
+        "Gen 1:14",
+        "Jub 6:36-38"
+      ],
+      "category": "100s - Cosmology"
+    },
+    {
+      "id": 104,
+      "entry": "The Throne is above; Sheol below; earth rests fixed.",
+      "ref": [
+        "Gen 37:35",
+        "1 Enoch 18:3-8"
+      ],
+      "category": "100s - Cosmology"
+    },
+    {
+      "id": 105,
+      "entry": "Earth is flat, immovable, founded.",
+      "ref": [
+        "Gen 1:1-10",
+        "1 Enoch 18:2",
+        "Ps 104:5"
+      ],
+      "category": "100s - Cosmology"
+    },
+    {
+      "id": 201,
+      "entry": "On the sixth day, God created mankind by voice; Adam was formed separately from dust and placed in Eden.",
+      "ref": [
+        "Gen 1:26-28",
+        "Gen 2:7-8",
+        "Jub 3:2"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 202,
+      "entry": "Sixth-day nations are distinct from the Adamic lineage formed in Eden.",
+      "ref": [
+        "Gen 1:27",
+        "Jub 10:22",
+        "1 Enoch 89"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 203,
+      "entry": "Adam was formed outside Eden; Eve was created within after the seventh day, marking the Adamic seedline's beginning.",
+      "ref": [
+        "Gen 2:7-8, 21-25",
+        "Jub 3:8-14"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 204,
+      "entry": "Pain in childbirth was imposed as covenantal consequence of the fall.",
+      "ref": [
+        "Gen 3:16",
+        "Jub 3:24"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 205,
+      "entry": "Nachash beguiled Eve; Cain's seed was corrupted.",
+      "ref": [
+        "1 Enoch 69:6",
+        "Gen 4:1"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 206,
+      "entry": "Sethic genealogy preserves the righteous line from Adam.",
+      "ref": [
+        "Gen 5:1-8",
+        "Jub 4:1-6"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 207,
+      "entry": "Noah's line excluded sixth-day and Cainite peoples.",
+      "ref": [
+        "Gen 10",
+        "Jub 7:20-22",
+        "Jub 10:3-12"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 208,
+      "entry": "Noah forbade intermingling with Cainite seed.",
+      "ref": [
+        "Jub 7:22-25"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 209,
+      "entry": "The Flood targeted corruption among Adamic and Nephilim seedlines within covenantal domains; Cainite and Sixth-Day peoples were not extinguished.",
+      "ref": [
+        "Gen 6:4-13",
+        "Jub 5:2-6",
+        "Jub 7:20-22",
+        "1 Enoch 10:9-13"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 210,
+      "entry": "After the flood, sixth-day and Cainite seedlines continued apart from Noahide covenantal inheritance.",
+      "ref": [
+        "Gen 10",
+        "Jub 7:20-22",
+        "Jub 10:3-12"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 211,
+      "entry": "Noahide nations that emerged post-flood corrupted themselves anew.",
+      "ref": [
+        "Jub 7:20-21"
+      ],
+      "category": "200s - Seedlines & Origins"
+    },
+    {
+      "id": 301,
+      "entry": "Shem carried the covenantal line.",
+      "ref": [
+        "Gen 9:1, 26-27",
+        "Jub 7:20"
+      ],
+      "category": "300s - Dispersion"
+    },
+    {
+      "id": 302,
+      "entry": "Dispersion confused Noahide tongue families.",
+      "ref": [
+        "Gen 11:1-9",
+        "Jub 10:18-27"
+      ],
+      "category": "300s - Dispersion"
+    },
+    {
+      "id": 303,
+      "entry": "Babel judged Noahide tribes only.",
+      "ref": [
+        "Gen 11:1-9",
+        "Jub 10:21-24"
+      ],
+      "category": "300s - Dispersion"
+    },
+    {
+      "id": 401,
+      "entry": "Adam received commandments and sacred instruction.",
+      "ref": [
+        "Gen 2:16-17",
+        "Jub 3:14-17"
+      ],
+      "category": "400s - Edenic Law & Covenant"
+    },
+    {
+      "id": 402,
+      "entry": "Edenic Law prefigures Sinai.",
+      "ref": [
+        "Jub 3:31",
+        "Jub 7:20"
+      ],
+      "category": "400s - Edenic Law & Covenant"
+    },
+    {
+      "id": 403,
+      "entry": "Sethic line inherits divine law.",
+      "ref": [
+        "Gen 5:3-8",
+        "Jub 4:3-6"
+      ],
+      "category": "400s - Edenic Law & Covenant"
+    },
+    {
+      "id": 501,
+      "entry": "Enmity set between serpent and woman's seed.",
+      "ref": [
+        "Gen 3:15"
+      ],
+      "category": "500s - Messianic Structure (Echo-Dependent)"
+    },
+    {
+      "id": 502,
+      "entry": "Son of Man pre-existent and enthroned.",
+      "ref": [
+        "1 Enoch 48:2-10",
+        "1 Enoch 62-63"
+      ],
+      "category": "500s - Messianic Structure (Echo-Dependent)"
+    },
+    {
+      "id": 503,
+      "entry": "Seventy generations to judgment.",
+      "ref": [
+        "1 Enoch 10:12",
+        "1 Enoch 93:10-11"
+      ],
+      "category": "500s - Messianic Structure (Echo-Dependent)"
+    },
+    {
+      "id": 504,
+      "entry": "Post-flood judgment by Son of Man.",
+      "ref": [
+        "1 Enoch 62-63"
+      ],
+      "category": "500s - Messianic Structure (Echo-Dependent)"
+    },
+    {
+      "id": 505,
+      "entry": "Edenic dominion restored by righteous.",
+      "ref": [
+        "Gen 1:28",
+        "1 Enoch 45:3-5"
+      ],
+      "category": "500s - Messianic Structure (Echo-Dependent)"
+    },
+    {
+      "id": 506,
+      "entry": "Judgment distinguishes by seedline fidelity.",
+      "ref": [
+        "Jub 16:17",
+        "1 Enoch 62:8-11"
+      ],
+      "category": "500s - Messianic Structure (Echo-Dependent)"
+    },
+    {
+      "id": 701,
+      "entry": "Stars are assigned watchers; hierarchy governs motion and authority.",
+      "ref": [
+        "1 Enoch 18:14-16",
+        "1 Enoch 72:1"
+      ],
+      "category": "700s - Heavenly Governance"
+    },
+    {
+      "id": 702,
+      "entry": "Mount Zion is a literal heavenly domain with registry and priesthood.",
+      "ref": [
+        "1 Enoch 25",
+        "Heb 12:22-24"
+      ],
+      "category": "700s - Heavenly Governance"
+    },
+    {
+      "id": 801,
+      "entry": "The Gregorian calendar is a Cainite construction that obscures covenantal time.",
+      "ref": [
+        "Jub 6:36-38"
+      ],
+      "category": "800s - Sabbath and Calendar"
+    },
+    {
+      "id": 802,
+      "entry": "Sabbath is tied to the 364-day cycle; lunar disruption is unauthorized.",
+      "ref": [
+        "Jub 2:9",
+        "1 Enoch 72"
+      ],
+      "category": "800s - Sabbath and Calendar"
+    },
+    {
+      "id": 803,
+      "entry": "Appointed feasts are Adamic rehearsals of Eden and Messiah's return.",
+      "ref": [
+        "Lev 23",
+        "Jub 6:22-38"
+      ],
+      "category": "800s - Sabbath and Calendar"
+    },
+    {
+      "id": 901,
+      "entry": "False altars are built without seedline division and invite Cainite priesthoods.",
+      "ref": [
+        "Gen 4:3-5",
+        "Lev 10:1-2"
+      ],
+      "category": "900s - Counterfeit Systems"
+    },
+    {
+      "id": 902,
+      "entry": "Beast thrones mimic the temple to enthrone false messiahs.",
+      "ref": [
+        "2 Thes 2:4",
+        "Rev 13:14-15"
+      ],
+      "category": "900s - Counterfeit Systems"
+    },
+    {
+      "id": 903,
+      "entry": "False Eucharist and sacrificial rituals reactivate Nephilim-era transgressions.",
+      "ref": [
+        "1 Enoch 7:5",
+        "1 Cor 10:20-21"
+      ],
+      "category": "900s - Counterfeit Systems"
+    }
+  ]
+}
+```
+
+---
+
+## V. Audit Checksum  
+
+```yaml
+dataset_checksum:
+  algorithm: sha256
+  value: "7aee01f3a778643339c20aeb0a251beb919d94ba31c6e7778ce797b45560e4f7"
+  canonical_state: verified
+```
+
+---
+
+## VI. Closure  
+
+The Lens is complete.  
+Law sees its own reflection, and reflection remains lawful — fixed and living at once.  
+
+> **Law reflected in Resonance — AMEN.**  
+> *End of Lens v3.1.1 (Deterministic Resonance Reference — Full Corpus Edition, Normalized)*  
