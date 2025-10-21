@@ -1,3 +1,0 @@
-#!/bin/bash
-echo "🔍 Running Scriptura Markdown Normalizer..."
-python3 scriptura_precommit_normalize.py
