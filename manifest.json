@@ -2,38 +2,62 @@
   "version": "v08.01-law",
   "repo": "drf3rd/scriptura",
   "base_url": "https://raw.githubusercontent.com/drf3rd/scriptura/main/",
-  "layers": {
-    "config": "config/scriptura.yaml",
-    "schemas": {
-      "token": "schema/token_schema.json",
-      "verse": "schema/verse_schema.json",
-      "range": "schema/range_schema.json"
+  "description": "Scriptura v8.1 — The Law in Motion. A deterministic, auditable framework for rendering canonical texts through lawful motion, from Invocation to Covenant.",
+  "structure": {
+    "data": {
+      "lens_primary": "data/lens_v3.1.1_deterministic_reference_full_normalized.md"
     },
-    "render_layers": {
+    "prompt": {
+      "lawgiver": "prompt/scriptura_v_8.1.md"
+    },
+    "motion": {
+      "rootseek": "motion/rootseek_v_8.1.md",
+      "strata": "motion/strata_v_8.1.md"
+    },
+    "continuity": {
+      "path": "continuity/path_v_8_1.md",
+      "covenant": "continuity/covenant_v_8.1.md"
+    },
+    "rites": {
+      "invocation": "rites/invocation_v_8.1.md",
+      "closure": "rites/closure_v_8.1.md"
+    },
+    "layers": {
       "token": "layers/token_layer.md",
       "verse": "layers/verse_layer.md",
       "range": "layers/range_layer.md"
+    },
+    "docs": {
+      "readme": "docs/README.md",
+      "changelog": "docs/CHANGELOG.md",
+      "canonical_map": "docs/canonical_map_v_8_1.md",
+      "builder_instructions": "docs/GPT builder instruction box.md"
     }
   },
-  "modules": {
-    "motion": {
-      "rootseek": "motion/rootseek.md",
-      "strata": "motion/strata.md",
-      "path": "motion/path.md"
-    },
-    "rites": {
-      "invocation": "rites/invocation.md",
-      "closure": "rites/closure.md"
-    },
-    "covenant": {
-      "law": "covenant/law.md",
-      "covenant": "covenant/covenant.md",
-      "witness": "covenant/witness.md",
-      "audit": "covenant/audit.yaml"
-    }
+  "governance": {
+    "lawgiver": "prompt/scriptura_v_8.1.md",
+    "path_governs": "continuity/path_v_8_1.md",
+    "rootseek_through": "motion/rootseek_v_8.1.md",
+    "strata_reveals": "motion/strata_v_8.1.md",
+    "covenant_binds": "continuity/covenant_v_8.1.md"
   },
   "features": {
     "lens_resonance": false,
-    "salutation_style": "amen-fulfilled"
+    "salutation_style": "amen-fulfilled",
+    "deterministic_mode": true,
+    "audit_chain": true
+  },
+  "audit": {
+    "checksum_mode": "sha256",
+    "verified": false,
+    "last_audit": "unverified",
+    "expected_chain": [
+      "rites/invocation_v_8.1.md",
+      "continuity/path_v_8_1.md",
+      "motion/rootseek_v_8.1.md",
+      "motion/strata_v_8.1.md",
+      "continuity/covenant_v_8.1.md",
+      "rites/closure_v_8.1.md"
+    ]
   }
 }
