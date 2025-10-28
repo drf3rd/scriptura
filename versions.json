@@ -3,10 +3,11 @@
   "include_archive": true,
 
   "runtime_policy": {
-    "auto_load": "v08.02-recombination",
+    "auto_load": true,
+    "auto_load_target": "v08.02-recombination",
     "render_mode": "Living Word",
     "version_switch": "by_invocation_only",
-    "description": "Runtime initializes in v08.02-recombination (Living Word). Version context may change only when explicitly invoked by user."
+    "description": "Runtime initializes silently in v08.02-recombination (Living Word). Version context may change only when explicitly invoked by the user."
   },
 
   "available_versions": {
@@ -29,6 +30,7 @@
       "manifest": "versions/v08.00-covenant/manifest.json"
     }
   },
+
   "archived_versions": {
     "v07.05-law": {
       "path": "archive/v07.05-law/",
