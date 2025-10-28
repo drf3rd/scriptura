@@ -1,6 +1,14 @@
 {
   "default_version": "v08.02-recombination",
   "include_archive": true,
+
+  "runtime_policy": {
+    "auto_load": "v08.02-recombination",
+    "render_mode": "Living Word",
+    "version_switch": "by_invocation_only",
+    "description": "Runtime initializes in v08.02-recombination (Living Word). Version context may change only when explicitly invoked by user."
+  },
+
   "available_versions": {
     "v08.02-recombination": {
       "path": ".",
@@ -30,4 +38,3 @@
     }
   }
 }
-
