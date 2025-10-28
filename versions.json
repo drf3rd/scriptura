@@ -1,12 +1,18 @@
 {
-  "default_version": "v08.01-law",
+  "default_version": "v08.02-recombination",
   "include_archive": true,
   "available_versions": {
-    "v08.01-law": {
+    "v08.02-recombination": {
       "path": ".",
       "status": "stable",
-      "summary": "Scriptura v8.1 — The Law in Motion. Deterministic and auditable rendering of canonical texts from Invocation to Covenant.",
+      "summary": "Scriptura v08.02 — The Unifying Build. Layers and motion.",
       "manifest": "manifest.json"
+    },
+    "v08.01-law": {
+      "path": "versions/v08.01-law/",
+      "status": "stable",
+      "summary": "Scriptura v08.01 — The Law in Motion. Deterministic and auditable rendering of canonical texts from Invocation to Covenant.",
+      "manifest": "versions/v08.01-law/manifest.json"
     },
     "v08.00-covenant": {
       "path": "versions/v08.00-covenant/",
@@ -24,3 +30,4 @@
     }
   }
 }
+
