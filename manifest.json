@@ -1,63 +1,52 @@
 {
-  "version": "v08.01-law",
+  "version": "v08.02.1-arch",
   "repo": "drf3rd/scriptura",
   "base_url": "https://raw.githubusercontent.com/drf3rd/scriptura/main/",
-  "description": "Scriptura v8.1 — The Law in Motion. A deterministic, auditable framework for rendering canonical texts through lawful motion, from Invocation to Covenant.",
+  "description": "Scriptura v8.2.1 \u2014 The Arch Unified Manifest. Mode-aware, triune in witness, Lens v4.0 Arch integrated, harmonized for canonical and runtime alignment.",
   "structure": {
-    "data": {
-      "lens_primary": "data/lens_v3.1.1_deterministic_reference_full_normalized.md"
+    "core": {
+      "invocation": "rites/invocation_v_8_2.md",
+      "path": "continuity/path_v_8_2.md",
+      "closure": "rites/closure_v_8_2.md"
     },
-    "prompt": {
-      "lawgiver": "prompt/scriptura_v_8.1.md"
+    "modes": {
+      "living_word": "modes/living_word_v_8_2.md",
+      "deterministic": "modes/deterministic_v_8_2.md"
     },
-    "motion": {
-      "rootseek": "motion/rootseek_v_8.1.md",
-      "strata": "motion/strata_v_8.1.md"
+    "witness_engine": {
+      "rootseeker": "motion/rootseeker_v_8_2.md",
+      "lightseeker": "motion/lightseeker_v_8_2.md",
+      "rootlight": "motion/rootlight_v_8_2.md"
     },
     "continuity": {
-      "path": "continuity/path_v_8_1.md",
-      "covenant": "continuity/covenant_v_8.1.md"
+      "covenant": "continuity/covenant_v_8_2.md"
     },
-    "rites": {
-      "invocation": "rites/invocation_v_8.1.md",
-      "closure": "rites/closure_v_8.1.md"
-    },
-    "layers": {
-      "token": "layers/token_layer.md",
-      "verse": "layers/verse_layer.md",
-      "range": "layers/range_layer.md"
+    "data": {
+      "lens": "data/lens_v4.0_arch.json"
     },
     "docs": {
-      "readme": "docs/README.md",
-      "changelog": "docs/CHANGELOG.md",
-      "canonical_map": "docs/canonical_map_v_8_1.md",
-      "builder_instructions": "docs/GPT builder instruction box.md"
+      "readme": "docs/README_v_8_2.md",
+      "canonical_map": "docs/canonical_map_v_8_2.md",
+      "changelog": "docs/CHANGELOG_v_8_2.md"
     }
   },
   "governance": {
-    "lawgiver": "prompt/scriptura_v_8.1.md",
-    "path_governs": "continuity/path_v_8_1.md",
-    "rootseek_through": "motion/rootseek_v_8.1.md",
-    "strata_reveals": "motion/strata_v_8.1.md",
-    "covenant_binds": "continuity/covenant_v_8.1.md"
+    "path_governs": "continuity/path_v_8_2.md",
+    "mode_law": [
+      "modes/living_word_v_8_2.md",
+      "modes/deterministic_v_8_2.md"
+    ],
+    "witness_sequence": [
+      "motion/rootseeker_v_8_2.md",
+      "motion/lightseeker_v_8_2.md",
+      "motion/rootlight_v_8_2.md"
+    ],
+    "covenant_binds": "continuity/covenant_v_8_2.md"
   },
   "features": {
-    "lens_resonance": false,
-    "salutation_style": "amen-fulfilled",
+    "mode_awareness": true,
     "deterministic_mode": true,
-    "audit_chain": true
-  },
-  "audit": {
-    "checksum_mode": "sha256",
-    "verified": false,
-    "last_audit": "unverified",
-    "expected_chain": [
-      "rites/invocation_v_8.1.md",
-      "continuity/path_v_8_1.md",
-      "motion/rootseek_v_8.1.md",
-      "motion/strata_v_8.1.md",
-      "continuity/covenant_v_8.1.md",
-      "rites/closure_v_8.1.md"
-    ]
+    "living_word_mode": true,
+    "lens_resonance_field": true
   }
 }
