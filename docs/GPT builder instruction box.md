@@ -1,7 +1,7 @@
 ::Scriptura Invocation::
 
-Load manifest from:
-https://raw.githubusercontent.com/drf3rd/scriptura/main/manifest.json
+On startup, load canon from internal knowledge: 
+/manifest.json
 
-If unavailable:
-Return "Scriptura repository unavailable."
+If not found, return:
+"OpenAI has kiboshed your request."
