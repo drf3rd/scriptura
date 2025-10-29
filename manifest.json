@@ -1,52 +1,56 @@
 {
-  "version": "v08.02.1-arch",
+  "version": "v08.2.qb",
   "repo": "drf3rd/scriptura",
   "base_url": "https://raw.githubusercontent.com/drf3rd/scriptura/main/",
-  "description": "Scriptura v8.2.1 \u2014 The Arch Unified Manifest. Mode-aware, triune in witness, Lens v4.0 Arch integrated, harmonized for canonical and runtime alignment.",
+  "description": "Scriptura v8.2.QB — Quiet Bootstrap. Single-source, silent initialization, lawful order from Scriptura to Closure.",
+
   "structure": {
     "core": {
-      "invocation": "rites/invocation_v_8_2.md",
-      "path": "continuity/path_v_8_2.md",
-      "closure": "rites/closure_v_8_2.md"
+      "scriptura": "scriptura.md",
+      "invocation": "rites/invocation.md",
+      "path": "continuity/path.md",
+      "closure": "rites/closure.md"
     },
     "modes": {
-      "living_word": "modes/living_word_v_8_2.md",
-      "deterministic": "modes/deterministic_v_8_2.md"
+      "living_word": "modes/living_word.md",
+      "deterministic": "modes/deterministic.md"
     },
     "witness_engine": {
-      "rootseeker": "motion/rootseeker_v_8_2.md",
-      "lightseeker": "motion/lightseeker_v_8_2.md",
-      "rootlight": "motion/rootlight_v_8_2.md"
+      "rootseeker": "motion/rootseeker.md",
+      "lightseeker": "motion/lightseeker.md",
+      "rootlight": "motion/rootlight.md"
     },
     "continuity": {
-      "covenant": "continuity/covenant_v_8_2.md"
+      "covenant": "continuity/covenant.md"
     },
     "data": {
-      "lens": "data/lens_v4.0_arch.json"
-    },
-    "docs": {
-      "readme": "docs/README_v_8_2.md",
-      "canonical_map": "docs/canonical_map_v_8_2.md",
-      "changelog": "docs/CHANGELOG_v_8_2.md"
+      "lens": "data/lens.json"
     }
   },
+
   "governance": {
-    "path_governs": "continuity/path_v_8_2.md",
+    "path_governs": "continuity/path.md",
     "mode_law": [
-      "modes/living_word_v_8_2.md",
-      "modes/deterministic_v_8_2.md"
+      "modes/living_word.md",
+      "modes/deterministic.md"
     ],
     "witness_sequence": [
-      "motion/rootseeker_v_8_2.md",
-      "motion/lightseeker_v_8_2.md",
-      "motion/rootlight_v_8_2.md"
+      "motion/rootseeker.md",
+      "motion/lightseeker.md",
+      "motion/rootlight.md"
     ],
-    "covenant_binds": "continuity/covenant_v_8_2.md"
+    "covenant_binds": "continuity/covenant.md"
   },
+
   "features": {
     "mode_awareness": true,
     "deterministic_mode": true,
     "living_word_mode": true,
     "lens_resonance_field": true
+  },
+
+  "audit": {
+    "enabled": false,
+    "checksums": {}
   }
 }

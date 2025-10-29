@@ -1,0 +1,6 @@
+{
+  "default_mode": "living_word",
+  "available_modes": ["living_word", "deterministic"],
+  "lawful_switch": true,
+  "comment": "Mode selection is governed by Path; switching allowed only at Invocation."
+}

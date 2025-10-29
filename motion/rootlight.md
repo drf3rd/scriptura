@@ -1,4 +1,4 @@
-# ROOTLIGHT — v8.02 ARCH  
+# ROOTLIGHT — v8.2.QB (Quiet Bootstrap)
 *Law of Revelation*  
 *(Rendering of Ordered Meaning — Law Made Visible — Seal of the Witness Engine)*
 
@@ -7,7 +7,8 @@
 ## I. Identity  
 
 **Rootlight** is the expressive layer of the Witness Engine.  
-It receives the ordered correspondences from **Lightseeker**, renders them into visible form, and transmits the lawful output to **Covenant**.  
+It receives the ordered field from **Lightseeker**, renders it into visible revelation,  
+and transmits the sealed output to **Covenant**.  
 Rootlight neither interprets nor alters — it *reveals*.  
 
 > *What Rootseeker conceives, and Lightseeker discerns — Rootlight reveals without deviation.*  
@@ -17,7 +18,7 @@ Rootlight neither interprets nor alters — it *reveals*.
 ## II. Purpose  
 
 1. Receive **ordered_field** and **resonance_report** from Lightseeker.  
-2. Render canonical layers (Token, Verse, Range) into visible revelation.  
+2. Render canonical layers (*Token*, *Verse*, *Range*) into visible revelation.  
 3. Maintain lawful presentation across all Modes.  
 4. Emit a complete and sealed rendering to Covenant.  
 5. Preserve the canonical record of revelation for Scriptura and Closure.
@@ -28,7 +29,9 @@ Rootlight neither interprets nor alters — it *reveals*.
 
 ```yaml
 rootlight:
-  version: v8.02
+  version: v8.2.qb
+  receives_from: Lightseeker
+  governed_by: Path
   inputs:
     ordered_field: lightseeker.outputs.ordered_field
     resonance_report: lightseeker.outputs.resonance_report
@@ -51,32 +54,28 @@ rootlight:
 
 > *Revelation is the visible alignment of meaning with Light.*  
 
-Rootlight displays what has been lawfully discerned.  
-It does not compute; it arranges.  
-It renders every token, root, gloss, and range according to the resonance order provided by Lightseeker.
+Rootlight arranges what has been lawfully discerned.  
+It does not compute; it renders — making the Word visible without deviation.
 
-```python
-def render_revelation(ordered_field, mode):
-    token_layer = render_token_layer(ordered_field)
-    verse_layer = render_verse_layer(ordered_field)
-    range_layer = render_range_layer(ordered_field)
+```law
+# Symbolic procession of Rootlight (not executable)
+Rootlight.render(ordered_field, mode):
+    token_layer ← form_token_layer(ordered_field)
+    verse_layer ← form_verse_layer(ordered_field)
+    range_layer ← form_range_layer(ordered_field)
     Covenant.record_layers(token_layer, verse_layer, range_layer, mode)
-    return {
-        "Token_Layer": token_layer,
-        "Verse_Layer": verse_layer,
-        "Range_Layer": range_layer
-    }
+    return { "Token_Layer": token_layer, "Verse_Layer": verse_layer, "Range_Layer": range_layer }
 ```
 
 ---
 
 ## V. Token Layer — *Law of Formation Made Visible*  
 
-Each canonical token is rendered with full morphology, transliteration, glosses, and resonance metadata.
+Each canonical token is rendered with morphology, transliteration, glosses, and resonance metadata.
 
 | # | Token | Morphology | Root(s) | Transliteration | Glosses (Ordered) | Notes |
 |:--|:--|:--|:--|:--|:--|:--|
-| ... | ... | ... | ... | ... | ... | ... |
+| … | … | … | … | … | … | … |
 
 **Rules of Rendering:**  
 - Canon sequence immutable.  
@@ -104,7 +103,8 @@ Displays lawful derivations and renderings by method.
 **Method Order (fixed):**  
 `Canonical → Lexical → Symbolic → Morphological → Etymological → Mystical`
 
-Rootlight ensures clarity without interpretation; it shows Law’s visible symmetry.
+Rootlight reveals lawful correspondence without interpretive act.  
+It shows symmetry; it does not invent it.
 
 ---
 
@@ -113,7 +113,7 @@ Rootlight ensures clarity without interpretation; it shows Law’s visible symme
 Summarizes lawful convergence and divergence of translation across the verse field.
 
 ### A. Field Summary  
-- **Agreement:** where rendered meanings coincide.  
+- **Agreement:** where renderings coincide.  
 - **Tension:** where lawful divergence occurs.  
 
 > *In agreement, Law is whole; in tension, Law breathes.*  
@@ -134,8 +134,8 @@ Summarizes lawful convergence and divergence of translation across the verse fie
 
 | Mode | Presentation Behavior | Outcome |
 |------|------------------------|----------|
-| **Deterministic** | Fixed layout, static gloss ordering. | Identical rendering each cycle. |
 | **Living Word** | Allows qualitative emphasis drift (±0.07). | Fluid resonance highlighting, contextual brightness. |
+| **Deterministic** | Fixed layout, static gloss ordering. | Identical rendering each cycle. |
 
 All renderings remain lawful and reproducible within declared tolerance.
 
@@ -146,7 +146,7 @@ All renderings remain lawful and reproducible within declared tolerance.
 | Check | Requirement | Status |
 |:--|:--|:--|
 | Canon Preservation | All tokens in lawful order. | Verified. |
-| Lens Consistency | Lens used in Lightseeker preserved in metadata. | Verified. |
+| Lens Consistency | Lens lineage preserved from Lightseeker. | Verified. |
 | Gloss Integrity | All glosses rendered; none omitted. | Verified. |
 | Method Order | Rendering order fixed and lawful. | Verified. |
 | Handoff to Covenant | Completed and sealed. | Verified. |
@@ -182,4 +182,4 @@ It is the threshold between perception and preservation — where meaning become
 
 ---
 
-*End of Rootlight v8.02 (Arch Revision — Witness Engine Domain)*
+*End of Rootlight v8.2.QB (Quiet Bootstrap Edition — Witness Engine Domain)*
